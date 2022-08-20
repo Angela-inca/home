@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e1bd2242.css",
+    "main.js": "/static/js/main.98e619e4.js",
+    "static/media/xplore2.png": "/static/media/xplore2.3dcd8bc0e72d079786b1.png",
+    "static/media/launchit2.png": "/static/media/launchit2.9da4d7155ee89e0ee639.png",
+    "static/media/geisel.png": "/static/media/geisel.9eb6791c6c1892015487.png",
+    "static/media/hashirshoaeb.png": "/static/media/hashirshoaeb.23e8b5a1f7de87f03d05.png",
+    "static/media/Angela.JPG": "/static/media/Angela.3cd41af07d0823f918bb.JPG",
+    "static/media/thumb.png": "/static/media/thumb.013a7fd0851520fea3c4.png",
+    "static/media/xplore1.png": "/static/media/xplore1.d3349933b6b43931670b.png",
+    "static/media/launchit1.png": "/static/media/launchit1.3023a0d653c1aa06897a.png",
+    "static/media/yale.png": "/static/media/yale.edda67106ea75d407816.png",
+    "static/media/phonological.png": "/static/media/phonological.86ee111d93ccded45519.png",
+    "static/media/thehack.jpeg": "/static/media/thehack.9a902e66da54d00c4b1d.jpeg",
+    "static/media/database.webp": "/static/media/database.eeaa6973c8bb6f096e8e.webp",
+    "static/media/circle.png": "/static/media/circle.2f5564877af261dd3524.png",
+    "static/media/ucsd.jpeg": "/static/media/ucsd.7032ce25013969540cd6.jpeg",
+    "static/media/apple.png": "/static/media/apple.db233b21bf77ceb1aa2a.png",
+    "index.html": "/index.html",
+    "main.e1bd2242.css.map": "/static/css/main.e1bd2242.css.map",
+    "main.98e619e4.js.map": "/static/js/main.98e619e4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1bd2242.css",
+    "static/js/main.98e619e4.js"
+  ]
+}
