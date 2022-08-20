@@ -51,6 +51,42 @@ const mainBody = {
 const resumeProjects = {
   projects:[
     {
+      title: "TritonLink Database",
+      startDate: "2021",
+      description: "A database of UCSD’s class sign-up system in JSP, JavaScript, and SQL.",
+      images: [
+        require('../editable-stuff/database.webp'),
+      ],
+      url: "https://www.notion.so/LaunchIt-Unite-to-Ignite-2af186c1404e4697ae0b41116d9000cf",
+      descBullets: [
+        "Designed the Entity-Relationship schema covering the university work and converted it into the 3rd Normal Form relational schema",
+        "Built entry forms for queries to search students, courses, faculties, and degree information",
+        "Handled extensive data maintenance through the use of constraints, views, and triggers"
+      ],
+      technologies: [
+        {
+          class: "devicon-angularjs-plain",
+          name: "Apache Tomcat"
+        },
+        {
+          class: "devicon-typescript-plain",
+          name: "JSP"
+        },
+        {
+          class: "devicon-csharp-plain",
+          name: "JDBC"
+        },
+        {
+          class: "devicon-csharp-plain",
+          name: "JavaScript"
+        },
+        {
+          class: "devicon-csharp-plain",
+          name: "SQL"
+        },
+      ]
+    },
+    {
       title: "LaunchIt",
       startDate: "2020",
       description: "A web-based platform that connects fast-growing projects with other brilliant minds that thinks alike. ",
@@ -81,17 +117,16 @@ const resumeProjects = {
     },
     {
       title: "XPlore",
-      startDate: "2018",
+      startDate: "2020",
       description: "A self-guided tour app launched in July 2020 on Google Play Store. Officially endorsed by UC San Diego and San Diego Architecture Foundation (SDAF), Xplore will be accepted as the official app for visiting UC San Diego.",
       images: [
         require('../editable-stuff/xplore2.png'),
         require('../editable-stuff/xplore1.png'),
       ],
       descBullets:[
-        "Led a team of 6 to develop the IOS version of an app aiming at providing a pleasant UCSD touring experience",
-        "Used the Agile methodology for fast-pacing project development and used Trello to keep track of the progress",
-        "Improved the design of the places page by incorporating an alphabetical scroll bar with a combination of UIKit and SwiftUI"
-
+        "Led a team of 6 using the Agile methodology",
+        "Implemented the search page using my own algorithm where users can filter the landmarks based on the name or amenities",
+        "Implemented the places page with an alphabetical scroll bar and used Google/Apple Maps API for getting the distances and directions to the landmark",
       ],
       url: "https://apps.apple.com/qa/app/xplore-ucsd/id1534251313",
       technologies: [
@@ -105,14 +140,14 @@ const resumeProjects = {
     {
       title: "Recommender System on Stream’s datasets",
       startDate: "2020",
-      description: "Built the recommender system based on Stream's video game review dataset (~200,000), with accuracy ranking 16th out of 401 (4%) on Kaggle",
+      description: "Built the recommender system based on Stream's video game review dataset (~200,000), with accuracy ranking 16th out of 401 (4%) on Kaggle.",
       images: [
         require("../editable-stuff/thumb.png"),
       ],
       url: "",
       descBullets: [
-        "Pre-processed the text data using stemming and lemmatization, designed the game category classifier by building a pipeline using Scikit-Learn’s CountVectorizer, TfidfTransformer, and linear SVM",
-        "Predicted whether a user would play a specific game based on the popularity of the game and the Jaccard Similarity between users"
+        "Pre-processed the text data using stemming and lemmatization, designed the  game category classifier by building  a pipeline using Scikit-Learn’s CountVectorizer, TfidfTransformer, and linear SVM",
+        "Predicted whether a user would play a specific game by building a weighted-KNN with Jaccard Similarity as the distance measure and the game's popularity as the weight"
       ],
       technologies: [
         {
@@ -122,30 +157,6 @@ const resumeProjects = {
         {
           class: "devicon-typescript-plain",
           name: "Machine Learning"
-        },
-      ]
-    },
-    {
-      title: "IBM Good Scholars Program",
-      startDate: "2020",
-      description: "Built a website that is aimed at helping improve users' presentation skills.",
-      images: [
-        require("../editable-stuff/ibm.png"),
-      ],
-      descBullets: [
-        "Used IBM tone analyzer API for tone analysis and designed the algorithm for the final presentation score based on the result from the API call",
-        "Improved the score display page for better interaction",
-        "Won the prize for scalability and efficiency"
-      ],
-      url: "",
-      technologies: [
-        {
-          class: "devicon-angularjs-plain",
-          name: "React"
-        },
-        {
-          class: "devicon-typescript-plain",
-          name: "HTML/CSS/JavaScript"
         },
       ]
     },
@@ -237,12 +248,13 @@ const skills = {
     { name: "Python", value: 85 },
     { name: "Java", value: 85},
     { name: "SQL", value: 85 },
-    { name: "JavaScript", value: 80 },
-    { name: "HTML/CSS", value: 70 },
+    { name: "Swift", value: 85},
+    { name: "HTML/CSS", value: 80 },
+    { name: "JavaScript", value: 70 },
     { name: "React", value: 70 },
     { name: "C/C++", value: 70},
     { name: "R", value: 70},
-    { name: "Swift", value: 70},
+    
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -261,8 +273,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for SWE or Data Scientist opportunities! If you know any positions available or if you just want to say hi, please feel free to email me",
-  email: "y1gu@ucsd.edu",
+    "I'm currently looking for SWE opportunities! If you know any positions available or if you just want to say hi, please feel free to email me",
+  email: "yingjia.gu@yale.edu",
 };
 
 const experiences = {

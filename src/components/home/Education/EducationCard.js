@@ -21,16 +21,15 @@ export default function EducationCard({school}) {
     <div>
       <Fade left duration={1000}>
         <div className="education-card">
-
-            <div className="education-text-details">
-              <img
-                crossOrigin={"anonymous"}
-                ref={imgRef}
-                className="education-roundedimg"
-                src={school.logo}
-                alt={school.schoolName}
-              />
-           
+          <img
+              crossOrigin={"anonymous"}
+              ref={imgRef}
+              className="education-roundedimg"
+              src={school.logo}
+              alt={school.schoolName}
+            />
+            
+              
              <h5 className="education-text-school">{school.schoolName}</h5>
             
               <h5
@@ -51,11 +50,7 @@ export default function EducationCard({school}) {
                 
               </div>
             </div>       
-        </div>
       </Fade>
-      <Slide left duration={2000}>
-        <div className="education-card-border"></div>
-      </Slide>
     </div>
   );
 }

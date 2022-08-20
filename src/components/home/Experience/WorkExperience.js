@@ -7,11 +7,11 @@ import {Container,Jumbotron } from "react-bootstrap";
 
 
 export default function WorkExperience() {
-  const bgStyle = { backgroundColor: "#f5f5f5" };
+  
 
   if (workExperiences.display) {
     return (
-    
+      <Jumbotron  id="experience" >
         
         <div  className="pb-5">
         <Fade bottom duration={1000} distance="20px">
@@ -40,7 +40,7 @@ export default function WorkExperience() {
           </div>
         </Fade>
       </div>
-
+      </Jumbotron>
      
 
    

@@ -20,6 +20,7 @@ import Experience from "./components/home/Experience/WorkExperience";
 // import { Blog } from "./components/blog/Blog";
 // import BlogPost from "./components/blog/BlogPost";
 import GetInTouch from "./components/home/GetInTouch.jsx";
+import { Jumbotron } from "react-bootstrap";
 
 const Home = React.forwardRef((props, ref) => {
   return (
@@ -52,22 +53,27 @@ const Home = React.forwardRef((props, ref) => {
 
 const App = () => {
   const titleRef = React.useRef();
+  const bgStyle = { backgroundColor: "#f5f5f5" };
 
   return (
+
     <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
       {navBar.show && <Navbar ref={titleRef} />}
       <Route path="/" exact component={() => <Home ref={titleRef} />} />
       {/* {false && <Route path="/blog" exact component={Blog} />}
       {false && <Route path="/blog/:id" component={BlogPost} />} */}
-      <Footer>
-        {getInTouch.show && (
-          <GetInTouch
-            heading={getInTouch.heading}
-            message={getInTouch.message}
-            email={getInTouch.email}
-          />
-        )}
-      </Footer>
+      <Jumbotron style={bgStyle}>
+        <Footer>
+          {getInTouch.show && (
+            <GetInTouch
+              heading={getInTouch.heading}
+              message={getInTouch.message}
+              email={getInTouch.email}
+            />
+          )}
+        </Footer>
+      </Jumbotron>
+      
     </BrowserRouter>
   );
 };

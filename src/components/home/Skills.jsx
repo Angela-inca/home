@@ -18,9 +18,9 @@ function Skills({ heading, hardSkills, softSkills }) {
     [],
     skillsTabRef
   );
-  const bgStyle = { backgroundColor: "white" };
+
   return (
-    <Jumbotron ref={skillsTabRef} fluid style={bgStyle} id="skills" className="py-5">
+    <Jumbotron ref={skillsTabRef} fluid  id="skills" className="py-5">
       <Container>
         <h2 ref={skillsTabRef} className="display-4 pb-5 text-center">
           {heading}
