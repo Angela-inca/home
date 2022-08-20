@@ -1,0 +1,24 @@
+.project-title-settings {
+	margin-top: 5%;
+	font: 18px/24px 'opensans-bold', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: black;
+	text-align: center;
+}
+.project-date {
+	font-size: 16px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	padding: 8px 15px 2px 15px;
+	position: static;
+	z-index: 100;
+	border-top: 5px solid #696969;
+	border-radius: 0 0 5px 5px;
+	background-color: #696969;
+	color: white;
+}
+.portfolio-item {
+	max-width: 100%;
+	margin-bottom: 15px;
+	text-align: center;
+}
