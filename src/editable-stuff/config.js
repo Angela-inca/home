@@ -308,7 +308,7 @@ const educationInfo = {
       schoolName: "Yale University",
       logo: require("../assets/img/yale.png"),
       subHeader: "Master of Science in Computer Science",
-      duration: "August 2022 - May 2022",
+      duration: "August 2022 - May 2023",
     }
   ]
 };
