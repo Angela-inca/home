@@ -51,17 +51,52 @@ const mainBody = {
 const resumeProjects = {
   projects:[
     {
+      title: "ESN Platform",
+      startDate: "2024",
+      description: "An Emergency Social Network (ESN) platform to facilitate communication and assistance during emergencies.",
+      images: [
+        require('../editable-stuff/database.webp'),
+      ],
+      url: "https://s24esna3.onrender.com/",
+      descBullets: [
+        "Integrated Socket.IO to enable seamless real-time communication, enhancing user experience and system reliability.",
+        "Implemented session token management for secure authentication and role-based access control using Passport.js and JWT.",
+        "Utilized diverse design patterns to enhance code structure and maintainability, while integrating CI/CD pipelines and comprehensive testing methodologies for quality and agility."
+      ],
+      technologies: [
+        {
+          class: "devicon-angularjs-plain",
+          name: "Socket.IO"
+        },
+        {
+          class: "devicon-typescript-plain",
+          name: "MongoDB"
+        },
+        {
+          class: "devicon-csharp-plain",
+          name: "Express.js"
+        },
+        {
+          class: "devicon-csharp-plain",
+          name: "Node.js"
+        },
+        {
+          class: "devicon-csharp-plain",
+          name: "Passport.js"
+        },
+      ]
+    },
+    {
       title: "TritonLink Database",
-      startDate: "2021",
+      startDate: "2022",
       description: "A database of UCSD’s class sign-up system in JSP, JavaScript, and SQL.",
       images: [
         require('../editable-stuff/database.webp'),
       ],
-      url: "https://www.notion.so/LaunchIt-Unite-to-Ignite-2af186c1404e4697ae0b41116d9000cf",
       descBullets: [
-        "Designed the Entity-Relationship schema covering the university work and converted it into the 3rd Normal Form relational schema",
-        "Built entry forms for queries to search students, courses, faculties, and degree information",
-        "Handled extensive data maintenance through the use of constraints, views, and triggers"
+        "Developed a robust database system for class sign-up platform, leveraging JSP, JavaScript, and SQL.",
+        "Designed an optimized Entity-Relationship schema to model the intricate relationships between students, courses, faculties, and degree information, ensuring efficient data searching, filtering, and retrieval.",
+        "Utilized constraints, views, and triggers to maintain data integrity and consistency, facilitating extensive data maintenance."
       ],
       technologies: [
         {
@@ -82,13 +117,44 @@ const resumeProjects = {
         },
         {
           class: "devicon-csharp-plain",
-          name: "SQL"
+          name: "PostgreSQL"
+        },
+      ]
+    },
+    {
+      title: "Recommender System on Stream’s datasets",
+      startDate: "2021",
+      description: "Built the recommender system based on Stream's video game review dataset (~200,000), with accuracy ranking 16th out of 401 (4%) on Kaggle.",
+      images: [
+        require("../editable-stuff/thumb.png"),
+      ],
+      url: "",
+      descBullets: [
+        "Designed the game category classifier by building a pipeline using Scikit-Learn’s CountVectorizer, TfidfTransformer, and linear SVM, pre-processed the text data using stemming and lemmatization.",
+        "Predicted whether a user would play a specific game by building a Weighted-KNN with Jaccard Similarity as the distance measure and the game's popularity as the weight."
+      ],
+      technologies: [
+        {
+          class: "devicon-angularjs-plain",
+          name: "Python"
+        },
+        {
+          class: "devicon-typescript-plain",
+          name: "Machine Learning"
+        },
+        {
+          class: "devicon-typescript-plain",
+          name: "Scikit-Learn"
+        },
+        {
+          class: "devicon-typescript-plain",
+          name: "Pandas"
         },
       ]
     },
     {
       title: "LaunchIt",
-      startDate: "2020",
+      startDate: "2021",
       description: "A web-based platform that connects fast-growing projects with other brilliant minds that thinks alike. ",
       images: [
         require('../editable-stuff/launchit2.png'),
@@ -117,7 +183,7 @@ const resumeProjects = {
     },
     {
       title: "XPlore",
-      startDate: "2020",
+      startDate: "2021",
       description: "A self-guided tour app launched in July 2020 on Google Play Store. Officially endorsed by UC San Diego and San Diego Architecture Foundation (SDAF), Xplore will be accepted as the official app for visiting UC San Diego.",
       images: [
         require('../editable-stuff/xplore2.png'),
@@ -128,7 +194,6 @@ const resumeProjects = {
         "Implemented the search page using my own algorithm where users can filter the landmarks based on the name or amenities",
         "Implemented the places page with an alphabetical scroll bar and used Google/Apple Maps API for getting the distances and directions to the landmark",
       ],
-      url: "https://apps.apple.com/qa/app/xplore-ucsd/id1534251313",
       technologies: [
         {
           "class": "devicon-react-original",
@@ -137,29 +202,7 @@ const resumeProjects = {
         
       ]
     },
-    {
-      title: "Recommender System on Stream’s datasets",
-      startDate: "2020",
-      description: "Built the recommender system based on Stream's video game review dataset (~200,000), with accuracy ranking 16th out of 401 (4%) on Kaggle.",
-      images: [
-        require("../editable-stuff/thumb.png"),
-      ],
-      url: "",
-      descBullets: [
-        "Pre-processed the text data using stemming and lemmatization, designed the  game category classifier by building  a pipeline using Scikit-Learn’s CountVectorizer, TfidfTransformer, and linear SVM",
-        "Predicted whether a user would play a specific game by building a weighted-KNN with Jaccard Similarity as the distance measure and the game's popularity as the weight"
-      ],
-      technologies: [
-        {
-          class: "devicon-angularjs-plain",
-          name: "Python"
-        },
-        {
-          class: "devicon-typescript-plain",
-          name: "Machine Learning"
-        },
-      ]
-    },
+    
     {
       title: "Research: Front-end for automatic generetor for phonological rules ",
       startDate: "2019",
@@ -188,30 +231,7 @@ const resumeProjects = {
         }
       ]
     },
-    {
-      title: "Hackathon: the hack",
-      startDate: "2019",
-      description: "",
-      descBullets: [
-        "Implemented the front end of an integrated study platform specifying AI tutor and efficient note-taking",
-        "Ranked the 4th out of more than 65 teams and won the bonus of 1000"
-     
-      ],
-      images: [
-        require("../editable-stuff/thehack.jpeg"),
-      ],
-      url: "",
-      technologies: [
-        {
-          class: "devicon-angularjs-plain",
-          name: "React"
-        },
-        {
-          class: "devicon-typescript-plain",
-          name: "HTML/CSS/JavaScript"
-        },
-      ]
-    }
+   
   ]
 }
 
@@ -245,14 +265,16 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 85 },
-    { name: "Java", value: 85},
-    { name: "SQL", value: 85 },
+    { name: "Python", value: 90 },
+    { name: "Java", value: 90},
+    { name: "C/C++", value: 70},
+    { name: "F#", value: 70},
+    { name: "SQL", value: 90 },
     { name: "Swift", value: 85},
     { name: "HTML/CSS", value: 80 },
     { name: "JavaScript", value: 70 },
-    { name: "React", value: 70 },
-    { name: "C/C++", value: 70},
+    { name: "React.js", value: 70 },
+    { name: "Node.js", value: 70 },
     { name: "R", value: 70},
     
   ],
@@ -298,18 +320,26 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "University of California, San Diego",
-      logo: require("../assets/img/circle.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2018 - March 2022",
-      desc: "GPA: 3.82 | Major GPA: 3.87",
+      schoolName: "Carnegie Mellon University, Silicon Valley",
+      logo: require("../assets/img/cmu.jpeg"),
+      subHeader: "Master of Science in Software Engineering",
+      duration: "January 2024 - December 2024",
     },
     {
       schoolName: "Yale University",
       logo: require("../assets/img/yale.png"),
       subHeader: "Master of Science in Computer Science",
       duration: "August 2022 - May 2023",
-    }
+    },
+    {
+      schoolName: "University of California, San Diego",
+      logo: require("../assets/img/circle.png"),
+      subHeader: "Bachelor of Science in Computer Science",
+      duration: "September 2018 - March 2022",
+      desc: "GPA: 3.82 | Major GPA: 3.87",
+    },
+    
+   
   ]
 };
 const openSource = {
@@ -354,14 +384,27 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer Intern",
+      company: "Bosch Rexroth",
+      companylogo: require("../assets/img/rexroth.png"),
+      date: "July 2023 – January 2024",
+      descBullets: [
+        "Implemented robust data processing pipeline tool in Python/Tkinter to streamline table manipulation with extracting files by year/month and logging invalid inputs.",
+        "Developed a Spring Boot and Vue.js based web application with MyBatis to facilitate user data submission through online forms and local Excel uploads, enabling efficient data ingestion into an SQL database; implemented comprehensive data retrieval, calculation, and visualization functionalities, empowering users with valuable insights.",
+        "Employed dynamic routing techniques and the Apache Shiro framework to implement authentication and authorization.",
+      ],
+      color: "rgb(28,43,71)",
+    
+    },
+    {
+      role: "Software Engineer Intern",
       company: "Apple",
       companylogo: require("../assets/img/apple.png"),
       date: "April 2022 – August 2022",
       descBullets: [
-        "Developed a macOS app that runs tests on multiple devices and integrated features that improve automation for result tracking",
-"Took advantage of multi-threading and defined the class for screen logs and test results to enable switching between devices",
-"Utilized interoperability between objective-c, python, shell command, and swift;  maintained states on updates from different technologies",
-"Used Realm Database for storing local metrics and enabled customization for case sets"
+        "Developed a macOS app facilitating test execution across multiple devices, with enhanced automation for result tracking.",
+        "Leveraged multi-threading to manage screen logs and test results, enabling seamless test execution across multiple devices.",
+        "Employed interoperability among Objective-C, Python, shell commands, and Swift to facilitate the execution of diverse test suites and accommodate state updates across different technologies.",
+        "Integrated Realm Database for robust local storage of test metrics, results and customized test cases."
       ],
       color: "rgb(28,43,71)",
     
@@ -372,9 +415,9 @@ const workExperiences = {
       companylogo: require("../assets/img/tencent.png"),
       date: "May 2021 – July 2021",
       descBullets: [
-        "Used MapReduce and SQL to connect users' segments of vehicle trajectories (~1TB data) and analyzed their departure & destination districts, and their routes",
-        "Identified the functionality of a region using the DMR model with the input of both the people flow data and the POI information, with 85% accuracy",
-        "Ranked the importance of road intersections using a modified version of the PageRank algorithm taking advantage of the static road structure data and the dynamic car flow data"
+        "Leveraged MapReduce and SQL to develop a scalable data pipeline for analyzing large-scale users' vehicle trajectory data, identifying departure and destination districts, and their routes.",
+        "Implemented a custom LDA model to identify regional functionality by integrating people flow data and Points of Interest (POI), achieving 85% accuracy.",
+        "Developed a modified PageRank algorithm to rank road intersections based on static road structure data and dynamic car flow data, enabling real-time traffic management strategies."
       ],
       color: "rgb(49,85,155)"
     },
@@ -384,9 +427,9 @@ const workExperiences = {
       companylogo: require("../assets/img/omni.png"),
       date: "June 2020 – Sep 2020",
       descBullets: [
-        "Implemented the backend application that fetched and stored more than 100k government grant entries into Google Firestore using REST API and GraphQL with filtering mechanisms",
-        "Implemented the email-sending feature which offered different email templates using the SendGrid API",
-        "Built the Project Pitch page using React.js and RMWC framework"
+        "Architected a high-performance backend application to efficiently manage and process government grant entries, utilizing a RESTful API architecture and GraphQL to ensure seamless data retrieval and storage in Google Firestore.",
+        "Engineered a robust email-sending feature with customizable templates by using the SendGrid API and Google Cloud Pub/Sub.",
+        "Leveraged React.js and RMWC framework to implement project-pitch pages with intuitive user experience."
       ],
       color: "rgb(218,96,56)",
     },  

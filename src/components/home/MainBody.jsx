@@ -2,7 +2,7 @@ import React from "react";
 import Typist from "react-typist";
 import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
-import AngelaImage from "../Angela.JPG"
+import AngelaImage from "../Angela.png"
 
 const MainBody = React.forwardRef(
   ({ gradient, title, message, icons }, ref) => {
