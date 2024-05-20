@@ -17,8 +17,6 @@ import Skills from "./components/home/Skills";
 import {resumeProjects} from "./editable-stuff/config";
 import Education from "./components/home/Education/Education";
 import Experience from "./components/home/Experience/WorkExperience";
-// import { Blog } from "./components/blog/Blog";
-// import BlogPost from "./components/blog/BlogPost";
 import GetInTouch from "./components/home/GetInTouch.jsx";
 import { Jumbotron } from "react-bootstrap";
 
