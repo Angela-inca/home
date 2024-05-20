@@ -55,7 +55,7 @@ const resumeProjects = {
       startDate: "2024",
       description: "An Emergency Social Network (ESN) platform to facilitate communication and assistance during emergencies.",
       images: [
-        require('../editable-stuff/database.webp'),
+        require('../editable-stuff/esn.png'),
       ],
       url: "https://s24esna3.onrender.com/",
       descBullets: [
@@ -123,7 +123,7 @@ const resumeProjects = {
     },
     {
       title: "Recommender System on Stream’s datasets",
-      startDate: "2021",
+      startDate: "2022",
       description: "Built the recommender system based on Stream's video game review dataset (~200,000), with accuracy ranking 16th out of 401 (4%) on Kaggle.",
       images: [
         require("../editable-stuff/thumb.png"),
@@ -155,21 +155,21 @@ const resumeProjects = {
     {
       title: "LaunchIt",
       startDate: "2021",
-      description: "A web-based platform that connects fast-growing projects with other brilliant minds that thinks alike. ",
+      description: "A web-based platform that connects fast-growing projects with other brilliant minds that thinks alike.",
       images: [
         require('../editable-stuff/launchit2.png'),
         require('../editable-stuff/launchit1.png'),
       ],
-      url: "https://www.notion.so/LaunchIt-Unite-to-Ignite-2af186c1404e4697ae0b41116d9000cf",
       descBullets: [
-        "Implemented the sider with the message notification functionality and the user profile page",
-        "Incorporated caching and loading metadata asynchronously for better user experience",
-        "Improved the responsiveness of the UI by refactoring the code using the Ant Design Framework",
+        "Worked as a front-end developer for the web application which serves as a student team-forming facilitator (Website: launchitnow.org).",
+        "Implemented core features including the navigation sider, message notification, and user profile panel using React.js and Google Firebase API.",
+        "Incorporated caching and loading metadata asynchronously for better user experience.",
+        "Improved the responsiveness of the UI by refactoring the code with Ant Design Framework and raised the user satisfaction by 10%."
       ],
       technologies: [
         {
           class: "devicon-angularjs-plain",
-          name: "React"
+          name: "React.js"
         },
         {
           class: "devicon-typescript-plain",
@@ -178,6 +178,10 @@ const resumeProjects = {
         {
           class: "devicon-csharp-plain",
           name: "Ant Design Framework"
+        },
+        {
+          class: "devicon-csharp-plain",
+          name: "RESTful API"
         }
       ]
     },
@@ -190,9 +194,9 @@ const resumeProjects = {
         require('../editable-stuff/xplore1.png'),
       ],
       descBullets:[
-        "Led a team of 6 using the Agile methodology",
-        "Implemented the search page using my own algorithm where users can filter the landmarks based on the name or amenities",
-        "Implemented the places page with an alphabetical scroll bar and used Google/Apple Maps API for getting the distances and directions to the landmark",
+        "Led a team of 6 to develop the IOS version of an app aiming at providing a pleasant UCSD touring experience with Agile Method.",
+        "Implemented the search page using my own algorithm where users can filter the landmarks based on the name or amenities.",
+        "Developed the places page with an alphabetical scroll bar; used Google/Apple Maps API for getting  the distances and directions to the landmark.",
       ],
       technologies: [
         {
@@ -206,7 +210,7 @@ const resumeProjects = {
     {
       title: "Research: Front-end for automatic generetor for phonological rules ",
       startDate: "2019",
-      description: "Worked with Nadia Polikarpova to enhance the front-end for the engine that automatically generates phonological rules based on data",
+      description: "Worked with Nadia Polikarpova to enhance the front-end for the engine that automatically generates phonological rules based on data.",
       images: [
         require("../editable-stuff/phonological.png"),
       ],
@@ -215,7 +219,6 @@ const resumeProjects = {
         "Used Python's Beautiful Soup and Urllib to do web scraping to get data",
         "Received 90% positive feedbacks from undergraduate linguists in the pilot survey"
       ],
-      url: "",
       technologies: [
         {
           class: "devicon-angularjs-plain",
@@ -296,7 +299,7 @@ const getInTouch = {
   heading: "Get In Touch",
   message:
     "I'm currently looking for SWE opportunities! If you know any positions available or if you just want to say hi, please feel free to email me",
-  email: "yingjia.gu@yale.edu",
+  email: "yingjiag@andrew.cmu.edu",
 };
 
 const experiences = {
@@ -330,6 +333,7 @@ const educationInfo = {
       logo: require("../assets/img/yale.png"),
       subHeader: "Master of Science in Computer Science",
       duration: "August 2022 - May 2023",
+      desc: "GPA: 3.92",
     },
     {
       schoolName: "University of California, San Diego",
@@ -406,7 +410,7 @@ const workExperiences = {
         "Employed interoperability among Objective-C, Python, shell commands, and Swift to facilitate the execution of diverse test suites and accommodate state updates across different technologies.",
         "Integrated Realm Database for robust local storage of test metrics, results and customized test cases."
       ],
-      color: "rgb(28,43,71)",
+      color: "rgb(162, 170, 173)",
     
     },
     {
